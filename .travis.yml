@@ -1,0 +1,9 @@
+language: java
+
+jdk:
+  - openjdk8
+
+install: mvn dependency:resolve
+
+script: mvn verify
+
